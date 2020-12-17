@@ -88,7 +88,7 @@ def main():
       index = randomSequence[ i ]
 
       # Output the filename in case something happens
-      print( filenames[ index ] )
+      print( "Bingo card " + str(i) + ": " + filenames[ index ] )
 
       # Show the image
       cv2.imshow( windowName, images[ index ] )
