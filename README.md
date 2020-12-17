@@ -18,6 +18,7 @@ cd img_bingo
 ```
 ## Generate bingo cards
 `python3 generateCard.py img .`
+
 This will generate a single `.png` file in the current directory. Calling this a second time will generate a _unique_ card that differs from the first. Calling again will create a third, and so-on.
 Cards are named using fairly unique numbers, though overwriting is certainly possible with large numbers of cards.
 
@@ -25,6 +26,7 @@ You can use your own images by replacing the images in the `img` directory or sp
 
 # Play BINGO!
 `python3 selectCardInteractive.py img`
+
 Every game of bingo needs exactly one "Caller". This application allows a caller to randomly cycle through each image once.
 You can even go back and forwards and the sequence is persistant.
 
