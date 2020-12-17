@@ -10,13 +10,13 @@ Fairly standard python3 kit, many of you won't need to install anything extra
 - NumPy
   (`pip3 install numpy`)
 
-## Code
+# Getting started
 Nothing needs to be built since everything is python script
 ```
 git clone https://github.com/johnhe4/img_bingo.git
 cd img_bingo
 ```
-# Generate bingo cards
+## Generate bingo cards
 `python3 generateCard.py img .`
 This will generate a single `.png` file in the current directory. Calling this a second time will generate a _unique_ card that differs from the first. Calling again will create a third, and so-on.
 Cards are named using fairly unique numbers, though overwriting is certainly possible with large numbers of cards.
@@ -36,7 +36,7 @@ Key controls:
  - QUIT (escape key)
  
  # Important image disclaimer
- I've uploaded these images into the repository with the sole intent of making testing easier - no ownership is claimed for the test images.
+ I've uploaded images into the repository with the sole intent of making testing easier - no ownership is claimed for the test images.
 
 Enjoy!
 -John
